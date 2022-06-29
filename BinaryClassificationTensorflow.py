@@ -21,7 +21,7 @@ model.add(layers.Dense(1, activation='sigmoid'))
 model.compile(loss='binary_crossentropy', optimizer=tf.keras.optimizers.Adam(0.1), metrics=['accuracy'])
 model.fit(features, labels, validation_split=0.2, epochs=200, batch_size=10)
 
-# testing the built model
+# testing the model after learning is finished
 predictions = model.predict(features).round()
 
 # ploting the testing result
