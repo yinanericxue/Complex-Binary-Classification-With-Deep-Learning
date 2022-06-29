@@ -22,3 +22,8 @@
 
 <img width="540" alt="Screen Shot 2022-06-28 at 10 03 05 PM" src="https://user-images.githubusercontent.com/102645083/176356094-48dcaa34-b92c-46f5-ae98-c802bf6b7409.png">
 
+## Build this model using TensorFlow is much easier. We can initalize the model using "model = tf.keras.Sequential()" and setup the layers and activation functions using "model.add". We then config the loss function / optimizer / metrics using "model.compile" and start the learning with "model.fit". After spending quite some time on hyperparameter tuning, I found that a validation split of 0.2, epochs of 200, and batch size of 10 resulted in the most desired outcome after testing the model using "model.predict()". The result was the same as the previous method.
+
+<img width="540" alt="Screen Shot 2022-06-28 at 10 03 05 PM" src="https://user-images.githubusercontent.com/102645083/176357304-489a10e2-0a5e-4778-aafd-2c800e8f8321.png">
+
+
