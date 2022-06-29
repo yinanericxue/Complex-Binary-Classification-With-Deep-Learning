@@ -4,7 +4,6 @@ import sklearn
 import sklearn.datasets
 import sklearn.linear_model
 
-
 def plot_decision_boundary(model, X, y):
     # Set min and max values and give it some padding
     x_min, x_max = X[0, :].min() - 1, X[0, :].max() + 1
@@ -21,7 +20,6 @@ def plot_decision_boundary(model, X, y):
     plt.xlabel('x1')
     plt.scatter(X[0, :], X[1, :], c=y, cmap=plt.cm.Spectral)
 
-
 def sigmoid(x):
     """
     Compute the sigmoid of x
@@ -34,7 +32,6 @@ def sigmoid(x):
     """
     s = 1 / (1 + np.exp(-x))
     return s
-
 
 def load_planar_dataset():
     np.random.seed(1)
@@ -56,7 +53,6 @@ def load_planar_dataset():
     Y = Y.T
 
     return X, Y
-
 
 def load_extra_datasets():
     N = 200
