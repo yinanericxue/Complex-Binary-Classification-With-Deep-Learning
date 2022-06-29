@@ -28,7 +28,7 @@ predictions = model.predict(features).round()
 plt.scatter(features[:,0], features[:,1], c=predictions, s=40, cmap=plt.cm.Spectral)
 plt.show()
 
-# converting the model to human-readable text
+# converting the model structure to human-readable text
 config = model.to_json()
 
 # saving a copy of all the values from the model
