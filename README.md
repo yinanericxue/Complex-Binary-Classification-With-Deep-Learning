@@ -26,4 +26,8 @@
 
 <img width="540" alt="Screen Shot 2022-06-28 at 10 03 05 PM" src="https://user-images.githubusercontent.com/102645083/176357304-489a10e2-0a5e-4778-aafd-2c800e8f8321.png">
 
+## By using "model.get_weights()", we can see the weights that we've been looking for this whole time.
+<img width="943" alt="Screen Shot 2022-06-28 at 10 21 05 PM" src="https://user-images.githubusercontent.com/102645083/176357748-af64dc4b-807d-4924-aa82-ecc43f312a1e.png">
+
+
 
