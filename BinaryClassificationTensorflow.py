@@ -12,7 +12,7 @@ features, labels = load_planar_dataset()
 labels = labels.transpose()
 features = features.transpose()
 
-# initializing a neural network and its hidden layers
+# initializing tje neural network and its hidden layers
 model = tf.keras.Sequential()
 model.add(layers.Dense(4, input_shape=(2,), activation='tanh'))
 model.add(layers.Dense(1, activation='sigmoid'))
