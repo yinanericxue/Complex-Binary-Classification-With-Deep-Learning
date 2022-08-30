@@ -55,7 +55,7 @@ for i in range(0, 100000):
 
 finalPrediction = A2.tolist()
 
-# rounding the decimals to 0 and 1
+# rounding each result value to 0 and 1
 for index in range(400):
     if finalPrediction[0][index] >= 0.5:
         finalPrediction[0][index] = 1
