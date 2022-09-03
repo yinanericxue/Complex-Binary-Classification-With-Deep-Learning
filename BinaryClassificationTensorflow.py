@@ -1,8 +1,6 @@
 import matplotlib.pyplot as plt
 import tensorflow as tf
 from tensorflow.keras import layers
-import warnings
-warnings.filterwarnings("ignore")
 from planar_utils import load_planar_dataset
 
 # features are (x,y) coordinates and labels are 0 and 1
