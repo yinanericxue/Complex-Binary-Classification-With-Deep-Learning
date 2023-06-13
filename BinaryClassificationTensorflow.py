@@ -29,5 +29,5 @@ plt.show()
 # converting the model structure to human-readable text
 config = model.to_json()
 
-# saving a copy of all the values from the model
+# saving qll the values from the model
 weights = model.get_weights()
