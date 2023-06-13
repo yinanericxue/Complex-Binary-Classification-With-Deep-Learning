@@ -48,7 +48,6 @@ for i in range(0, 100000):
     W1, W2, b1, b2 = back_propagation(W1, b1, W2, b2, parameters, sampleSize)
     if cost and i % 10000 == 0:
         print("Cost after iteration % i: % f" % (i, cost))
-
 finalPrediction = A2.tolist()
 
 # rounding each result value to 0 and 1
